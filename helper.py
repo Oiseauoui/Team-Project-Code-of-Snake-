@@ -34,9 +34,6 @@ class Phone(Field): #15.10.2023 Внесла изменения: проверк�
     
     def __str__(self):
         return str(self.value)
-    
-
-class Phone(Field):
 
     def set_value(self, value):
         validated_phone = self.validate_phone(value) # 15.10.23 modify Yulia
